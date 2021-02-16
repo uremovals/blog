@@ -168,6 +168,7 @@
             <div id="section2" class="p-3 mt-2" style="background-color: rgb(255, 255, 255); box-shadow: 0 -10px 16px 0 rgba(0,0,0,.05);">
                 <h2>People also looked at</h2>
                 <div class="row">
+                @if ($related !== "empty")
                 @foreach ($related->take(4)->shuffle() as $rel)
                 <div class="col-12 col-xl-3 mb-3">
                     <div class="card cardheight">
@@ -180,13 +181,16 @@
                       </div>
                 </div>
                 @endforeach
+                @endif
                 </div>
             </div>
 
                     <div id="section3" class="p-3 mt-5" style="background-color: rgb(255, 255, 255); box-shadow: 0 -10px 16px 0 rgba(0,0,0,.05);">
                     <h2>How to choose the best {{ $title }}?</h2>
                     <p>Our {{ $title }} buying guide explains how to compare {{ $title }}s by technical specifications.</p>
+                    @if ($related !== "empty")
                     <p class="mt-5">{!! $products['guide'] !!}</p>
+                    @endif
                     </div>
 
                     <h2 class="mt-5">Product comparison table</h2>
@@ -354,6 +358,7 @@
 
                     <h2>More buying guides</h2>
                     <div class="row">
+                    @if ($related !== "empty")
                     @foreach ($guide_related as $gr)
                     <?php $gr->product_guide=str_ireplace('<p>','',$gr->product_guide); ?>
                         <?php $gr->product_guide=str_ireplace('</p>','',$gr->product_guide); ?>
@@ -361,6 +366,7 @@
                         <?php echo mb_substr($gr->product_guide, 0, mb_strpos($gr->product_guide, ' ', 380)); ?>... <a href="{{ str_replace('+', '-', strtolower($gr->category_id)) }}">Read more</a>
                     </div>
                     @endforeach
+                    @endif
                     <script>
                         $('.blog-module').each(function(){
                             var SP_Link = $(this).find("a").attr('href');

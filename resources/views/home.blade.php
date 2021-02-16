@@ -69,6 +69,7 @@ $.ajaxSetup({
       $('#catForm').submit(function(e) {
           e.preventDefault();
           var categoryname = $("input[name=categoryname]").val();
+          var key = categoryname.replace(/\ /g, '-');
           var parent_id = $("input[name=parent_id]").val();
 
           $.ajax({
@@ -79,7 +80,7 @@ $.ajaxSetup({
                   "parent_id" : parent_id
               },
               success:function(response){
-                  console.log(response)
+                window.location.href = "../category/" + key;
                   $('#catModal').modal('toggle');
               }
           });

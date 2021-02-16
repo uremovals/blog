@@ -104,10 +104,10 @@ class AmazonController extends Controller
         ->select('parent_id')
         ->where('category_id', '=', $key)->get();
 
-        $categories_related = null;
+        // $categories_related = Categories::where('parent_id', '=', $related_id[0]->parent_id)
+        //                                         ->where('parent', '=', null)->get();
 
-        $categories_related->toArray();
-
+        $categories_related = "empty";
 
         return view('category',
         [ 'products' => $prod_raw,
