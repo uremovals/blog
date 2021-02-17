@@ -72,7 +72,7 @@ class AmazonController extends Controller
         $pimages_json = serialize($pimages);
         $pasins_json = serialize($pasins);
 
-        $parent_id = DB::table('categories')
+        $parent_id = DB::table('Categories')
             ->select('parent_id')
             ->where('category_name', '=', str_replace('-', ' ', ucfirst($key)))->get();
 
@@ -96,7 +96,7 @@ class AmazonController extends Controller
         foreach ($pimages as $pimage ) {
         }
 
-        DB::table('categories')
+        DB::table('Categories')
         ->where('category_name', str_replace('-', ' ', ucfirst($key)))
         ->update(['category_image' => $pimage]);
 
