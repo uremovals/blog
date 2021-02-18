@@ -155,15 +155,18 @@
             @endforeach
 
         <div class="mt-5">
-            <a href="/">Shuffleloot</a> >
+            <ul class="breadcrumb" id="breadcrumblist" itemscope itemtype="http://schema.org/BreadcrumbList">
+            <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="/"><span itemprop="name">Shuffleloot</span></a><meta itemprop="position" content="1" />
             <?php $link = "" ?>
             @for($i = 1; $i <= count(Request::segments()); $i++)
                 @if($i < count(Request::segments()) & $i > 0)
                 <?php $link .= "/" . Request::segment($i); ?>
-                <a href="/categories"><b>Categories</b></a> >
-                @else {{ucwords(str_replace('-',' ',Request::segment($i)))}}s
+                <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="/categories"><span itemprop="name">Categories</span></a><meta itemprop="position" content="2" /></li>
+                @else
+                <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="/category/{{ Request::segment($i) }}">{{ucwords(Request::segment($i))}}s</span></a><meta itemprop="position" content="3" /></li>
                 @endif
             @endfor
+        </ul>
         </div>
             <div id="section2" class="p-3 mt-2" style="background-color: rgb(255, 255, 255); box-shadow: 0 -10px 16px 0 rgba(0,0,0,.05);">
                 <h2>People also looked at</h2>
