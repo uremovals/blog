@@ -351,7 +351,7 @@ FileETag None
     # Send Requests To Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteRule ^index.php/(.+) /$1 [R=301,L]
+    RewriteRule ^ index.php [L]
 </IfModule>
 
 
