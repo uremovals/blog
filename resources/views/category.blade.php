@@ -163,7 +163,7 @@
                 <?php $link .= "/" . Request::segment($i); ?>
                 <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="/categories"><span itemprop="name">Categories</span></a><meta itemprop="position" content="2" /></li>
                 @else
-                <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="/category/{{ Request::segment($i) }}">{{ucwords(Request::segment($i))}}s</span></a><meta itemprop="position" content="3" /></li>
+                <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="/category/{{ Request::segment($i) }}"><span itemprop="name">{{ucwords(Request::segment($i))}}s</span></a><meta itemprop="position" content="3" /></li>
                 @endif
             @endfor
         </ul>
