@@ -102,7 +102,7 @@
         <p class="tabcontent">When you are searching for a product on ShuffleLoot, you will see some list of the high-rated brands of that product category. ShuffleLoot gathers necessary information from manufacturers, sales records from retailers, client reviews, and blog articles written by professionals concerning the product to rate the brands in every category.</p>
         </div>
         <div class="col-xl-6 order-1 order-xl-2">
-        <img class="img-fluid" src="/images/what-we-do.jpf" alt="what-we-do shuffleloot.com">
+        <img class="img-fluid" src="/images/what-we-do.jpg" alt="what-we-do shuffleloot.com">
         </div>
         </div>
          </div>
@@ -112,7 +112,7 @@
                 <p class="tabcontent">ShuffleLoot is an online site that was designed to support customers in decision-making when purchasing a particular product. The website generates the list of best products and high brands based on the sales records and client reviews.</p>
                 </div>
                 <div class="col-xl-6 order-1 order-xl-2">
-                <img class="img-fluid" src="/images/how-is-works.jpf" alt="what-is-works shuffleloot.com">
+                <img class="img-fluid" src="/images/how-is-works.jpg" alt="what-is-works shuffleloot.com">
                 </div>
                 </div>
         </div>
@@ -122,7 +122,7 @@
                 <p class="tabcontent">We are constantly adding more products, reviews, and categories. You can enjoy all this benefits by checking us up from time to time. (Simply Bookmark This Page)</p>
                 </div>
                 <div class="col-xl-6 order-1 order-xl-2">
-                <img class="img-fluid" src="/images/keep-visiting-us.jpf" alt="keep-visiting-us shuffleloot.com">
+                <img class="img-fluid" src="/images/keep-visiting-us.jpg" alt="keep-visiting-us shuffleloot.com">
                 </div>
                 </div>
         </div>
@@ -134,7 +134,7 @@
     <div class="card-columns">
 
         <div class="card">
-            <img class="card-img-top" src="/images/toys-children-and-baby.jpf" alt="Toys children and baby">
+            <img class="card-img-top" src="/images/toys-children-and-baby.jpg" alt="Toys children and baby.jpg">
             <div class="card-body">
               <h5 class="card-title">Toys, Children & Baby</h5>
               <p class="card-text"><ul class="list-unstyled">
@@ -149,7 +149,7 @@
           </div>
 
                 <div class="card">
-                <img class="card-img-top" src="/images/electronics-and-computers.jpf" alt="Electronics and computers">
+                <img class="card-img-top" src="/images/electronics-and-computers.jpg" alt="Electronics and computers">
                 <div class="card-body">
                   <h5 class="card-title">Electronics & Computers</h5>
                   <p class="card-text"><ul class="list-unstyled">
@@ -164,7 +164,7 @@
                 </div>
 
                 <div class="card">
-                    <img class="card-img-top" src="/images/books-and-audible.jpf" alt="Books and audible">
+                    <img class="card-img-top" src="/images/books-and-audible.jpg" alt="Books and audible">
                     <div class="card-body">
                       <h5 class="card-title">Books & Audible</h5>
                       <p class="card-text"><ul class="list-unstyled">
@@ -179,7 +179,7 @@
                   </div>
 
                   <div class="card">
-                    <img class="card-img-top" src="/images/fashion-shoes-and-watches.jpf" alt="Fashion shoes and watches">
+                    <img class="card-img-top" src="/images/fashion-shoes-and-watches.jpg" alt="Fashion shoes and watches">
                     <div class="card-body">
                       <h5 class="card-title">Fashion, Shoes & Watches</h5>
                       <p class="card-text"><ul class="list-unstyled">
@@ -209,7 +209,7 @@
                       </div>
 
                       <div class="card">
-                        <img class="card-img-top" src="/images/car-and-motor.jpf" alt="Car and motor">
+                        <img class="card-img-top" src="/images/car-and-motor.jpg" alt="Car and motor">
                         <div class="card-body">
                           <h5 class="card-title">Car & Motorbike</h5>
                           <p class="card-text"><ul class="list-unstyled">
@@ -224,7 +224,7 @@
                       </div>
 
                       <div class="card">
-                        <img class="card-img-top" src="/images/food-and-grocery.jpf" alt="Food and grocery">
+                        <img class="card-img-top" src="/images/food-and-grocery.jpg" alt="Food and grocery">
                         <div class="card-body">
                           <h5 class="card-title">Food & Grocery</h5>
                           <p class="card-text"></p>
@@ -232,7 +232,7 @@
                       </div>
 
                       <div class="card">
-                        <img class="card-img-top" src="/images/home-garden-tools.jpf" alt="Home garden and tools">
+                        <img class="card-img-top" src="/images/home-garden-tools.jpg" alt="Home garden and tools">
                         <div class="card-body">
                           <h5 class="card-title">Home, Garden & Tools</h5>
                           <p class="card-text"><ul class="list-unstyled">
@@ -247,7 +247,7 @@
                       </div>
 
                       <div class="card">
-                        <img class="card-img-top" src="/images/sports-and-outdoors.jpf" alt="Sports-and-outdoors">
+                        <img class="card-img-top" src="/images/sports-and-outdoors.jpg" alt="Sports-and-outdoors">
                         <div class="card-body">
                           <h5 class="card-title">Sports & Outdoors</h5>
                           <p class="card-text"><ul class="list-unstyled">
@@ -262,7 +262,7 @@
                       </div>
 
                       <div class="card">
-                        <img class="card-img-top" src="/images/health-and-beauty.jpf" alt="Health and beauty">
+                        <img class="card-img-top" src="/images/health-and-beauty.jpg" alt="Health and beauty">
                         <div class="card-body">
                           <h5 class="card-title">Health & Beauty</h5>
                           <p class="card-text"></p>
@@ -270,7 +270,7 @@
                       </div>
 
                       <div class="card">
-                        <img class="card-img-top" src="/images/business-industrial-and-scientific.jpf" alt="Business industrial and scientific">
+                        <img class="card-img-top" src="/images/business-industrial-and-scientific.jpg" alt="Business industrial and scientific">
                         <div class="card-body">
                           <h5 class="card-title">Business, Industrial and Scientific</h5>
                           <p class="card-text"><ul class="list-unstyled">
