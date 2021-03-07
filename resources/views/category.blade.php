@@ -86,7 +86,7 @@
                     </div>
                     </div>
             <button onclick="window.open('/loadretailer/{{ $products['asin'][$key] }}')" type="button" class="btn btn-success btn-lg mb-3 d-none d-md-block">View deal</button>
-            <form style="display: -webkit-inline-flex;" method="GET" action="http://www.amazon.com/gp/aws/cart/add.html">
+            <form style="display: -webkit-inline-flex;" method="GET" action="https://www.amazon.com/gp/aws/cart/add.html">
                 <input type="hidden" name="AWSAccessKeyId" value="[AWSAccessKeyId]"/>
                 <input type="hidden" name="AssociateTag" value="bkto-20"/>
                 <input type="hidden" name="ASIN.1" value="{{ $products['asin'][$key] }}"/>
